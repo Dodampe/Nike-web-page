@@ -13,7 +13,7 @@ function Nav() {
                 {navLinks.map((item) => (
                     <li key={item.label}>
                         <a href={item.href} className='font-montserrat leading-normal text-lg 
-                        text-slate-gray hover:underline'>
+                        text-slate-gray hover:font-bold text-slate-500'>
                             {item.label}
                         </a>
                     </li>
